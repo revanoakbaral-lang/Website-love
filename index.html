@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PANOWZ LOVE ❤️</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- FORM -->
+  <div id="formPage" class="card">
+
+    <div class="logo">PANOWZ LOVE</div>
+
+    <h1>Untuk Kita ❤️</h1>
+
+    <p class="subtitle">
+      Masukkan data hubungan kalian untuk membuka pesan spesial.
+    </p>
+
+    <label>Nama Kamu</label>
+    <input id="yourName" type="text" placeholder="Nama kamu">
+
+    <label>Nama Pasangan</label>
+    <input id="partnerName" type="text" placeholder="Nama pasangan">
+
+    <label>Tanggal Jadian</label>
+    <input id="relationshipDate" type="date">
+
+    <button id="startButton">
+      Mulai Perjalanan Kita ❤️
+    </button>
+
+  </div>
+
+
+  <!-- WEBSITE UTAMA -->
+  <div id="mainPage" class="hidden">
+
+    <div class="card hero">
+
+      <div class="heart">❤️</div>
+
+      <h2>
+        Untuk <span id="displayPartner"></span>
+      </h2>
+
+      <p class="subtitle">
+        Dari <b id="displayYour"></b>, untuk kamu.
+      </p>
+
+    </div>
+
+
+    <!-- DURASI -->
+    <div class="card">
+
+      <h3>💑 Tentang Hubungan Kita</h3>
+
+      <div class="duration" id="duration">
+        -
+      </div>
+
+      <p class="subtitle">
+        Bersama sejak <b id="displayDate"></b>
+      </p>
+
+    </div>
+
+
+    <!-- COUNTDOWN -->
+    <div class="card">
+
+      <h3>🎂 Anniversary Berikutnya</h3>
+
+      <br>
+
+      <div class="countdown">
+
+        <div class="time">
+          <b id="days">0</b>
+          Hari
+        </div>
+
+        <div class="time">
+          <b id="hours">0</b>
+          Jam
+        </div>
+
+        <div class="time">
+          <b id="minutes">0</b>
+          Menit
+        </div>
+
+        <div class="time">
+          <b id="seconds">0</b>
+          Detik
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- PESAN -->
+    <div class="card">
+
+      <h3>💌 Pesan Untukmu</h3>
+
+      <br>
+
+      <p class="message">
+
+        Aku mungkin nggak selalu menjadi pasangan yang sempurna.
+        Tapi aku ingin terus belajar menjadi seseorang yang lebih baik
+        untuk kita.
+
+        <br><br>
+
+        Aku nggak ingin hubungan ini hanya dipenuhi kata-kata manis,
+        tapi juga rasa percaya, komunikasi, kesetiaan, dan usaha untuk
+        saling memahami.
+
+        <br><br>
+
+        Aku tahu hubungan nggak selalu mudah. Akan ada perbedaan,
+        salah paham, dan hari-hari ketika kita sama-sama lelah.
+
+        <br><br>
+
+        Tapi selama kita masih mau bicara, saling mendengarkan,
+        dan memilih untuk memperbaiki semuanya, aku percaya kita
+        bisa melewati banyak hal bersama.
+
+        <br><br>
+
+        Aku sayang kamu bukan hanya karena hal-hal indah yang kamu
+        punya, tapi karena kamu adalah kamu.
+
+        <br><br>
+
+        Semoga kita bisa terus tumbuh bersama, saling mendukung,
+        dan menjadi tempat pulang satu sama lain.
+
+        <br><br>
+
+        Terima kasih karena sudah hadir di hidupku. ❤️
+
+      </p>
+
+    </div>
+
+
+    <!-- ALASAN -->
+    <div class="card">
+
+      <h3>❤️ Alasan Aku Memilihmu</h3>
+
+      <br>
+
+      <div class="reason">
+        Karena bersamamu aku bisa menjadi diriku sendiri.
+      </div>
+
+      <div class="reason">
+        Karena kamu membuat hari-hariku lebih berarti.
+      </div>
+
+      <div class="reason">
+        Karena aku ingin tumbuh dan belajar bersama kamu.
+      </div>
+
+      <div class="reason">
+        Karena sampai sekarang kamu masih menjadi seseorang
+        yang ingin aku perjuangkan.
+      </div>
+
+    </div>
+
+
+    <!-- BUTTON -->
+    <div class="card">
+
+      <button onclick="editData()">
+        ✏️ Edit Data
+      </button>
+
+      <button onclick="resetData()">
+        🔄 Mulai Lagi
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <footer>
+    Made with ❤️ by PANOWZ
+  </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
